@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1e254a;
+  color: white;
+  line-height: 40px;
+  font-family: 'Kalam';
+  text-shadow: 2px 2px 1px black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.title {
+  font-size: 64px;
+  color: #ff0000;
+  position: relative;
+  bottom: 40px;
+}
+
+.text {
+  color: #5dff5d;
+  position: relative;
+  bottom: 40px;
+  font-size: 24px;
+}
+/*# sourceMappingURL=mainStyle.css.map */

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 37, 74);
+    color: white;
+    line-height: 40px;
+    font-family: 'Kalam';
+    text-shadow: 2px 2px 1px black;    
+    user-select: none;    
+}
+
+.title {
+    font-size: 64px;
+    color: #ff0000;
+    position: relative;
+    bottom: 40px;
+}
+
+.text {
+    color: #5dff5d;
+    position: relative;
+    bottom: 40px;
+    font-size: 24px;
+}
